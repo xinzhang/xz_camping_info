@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xz_camping_info/components/favourite.dart';
 
 class TitleSection extends StatelessWidget {
   const TitleSection({
@@ -26,8 +27,7 @@ class TitleSection extends StatelessWidget {
               ],
             ),
           ),
-          Icon(Icons.star, color: Colors.red[500]),
-          Text('41'),
+          FavouriteWidget(),
         ],
       ),
     );
