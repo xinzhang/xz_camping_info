@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xz_camping_info/components/favourite.dart';
+import 'package:xz_camping_info/components/camping/favourite.dart';
 
 class TitleSection extends StatelessWidget {
   const TitleSection({
