@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:xz_camping_info/components/text_section.dart';
+import 'package:xz_camping_info/components/bottom_navigation.dart';
+import 'package:xz_camping_info/components/camping/text_section.dart';
 
-import 'components/title_section.dart';
+import 'components/camping/title_section.dart';
 
 class CampingInfo extends StatelessWidget {
   @override
@@ -34,6 +35,7 @@ class CampingInfo extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavigation(),
     );
   }
 
